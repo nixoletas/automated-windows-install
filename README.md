@@ -50,7 +50,7 @@ there is also a install-tools.ps1 script for installing:
 - bruno
 
 ```ps1
-# install-dev-tools.ps1
+# install-tools.ps1
 
 # Ensure script runs as admin
 If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))
