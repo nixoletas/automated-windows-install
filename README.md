@@ -1,4 +1,4 @@
-# automated-windows-install
+# Automate boring windows installation
 
 Automatede windows installation with debloat custom options
 
