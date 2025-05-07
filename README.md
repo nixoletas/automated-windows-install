@@ -20,6 +20,8 @@ check https://schneegans.de/windows/unattend-generator/samples/ for sample scrip
 
 example (google chrome installation)
 
+.ps1
+
 ```ps1
 $uri = [uri]::new( 'https://dl.google.com/chrome/install/chrome_installer.exe' );
 $file = "$env:TEMP\{0}" -f $uri.Segments[-1];
