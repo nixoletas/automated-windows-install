@@ -4,6 +4,8 @@ Automatede windows installation with debloat custom options
 
 ---
 
+## Create your own custom script
+
 1. go to: https://schneegans.de/windows/unattend-generator/
 
 2. go throught every config step to change accordingly to your needs
