@@ -1,4 +1,4 @@
-# install-dev-tools.ps1
+# install-tools.ps1
 
 # Ensure script runs as admin
 If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))
@@ -24,7 +24,7 @@ refreshenv
 $packages = @(
     "androidstudio",
     "flutter",
-    "jdk21",
+    "openjdk",
     "nodejs-lts",
     "golang",
     "intellijidea-community",
