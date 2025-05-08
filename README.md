@@ -37,7 +37,7 @@ there is also a install-tools.ps1 script for installing:
 - chocolatey
 - android studio
 - flutter
-- jdk21
+- openjdk
 - nodejs
 - golang
 - intellijidea community edition
@@ -75,8 +75,9 @@ refreshenv
 # Install developer tools
 $packages = @(
     "androidstudio",
+    "git",
     "flutter",
-    "jdk21",
+    "openjdk",
     "nodejs-lts",
     "golang",
     "intellijidea-community",
