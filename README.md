@@ -103,3 +103,13 @@ run the script with
 Set-ExecutionPolicy Bypass -Scope Process -Force
 .\install-dev-tools.ps1
 ```
+
+
+## Debloat from LeDragonX
+
+download: https://github.com/LeDragoX/Win-Debloat-Tools/archive/main.zip
+
+CLI Version (Straight to debloat)
+```ps1
+Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force; ls -Recurse *.ps*1 | Unblock-File; .\"WinDebloatTools.ps1" 'CLI'
+```
