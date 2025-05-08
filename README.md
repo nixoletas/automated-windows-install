@@ -12,7 +12,7 @@ Automatede windows installation with debloat custom options
 
 3. download .xml wrapped in .iso file
 
-4. burn into a flash drive
+4. burn official windows 11 iso into a flash drive and place the .xml file at the root.
 
 5. initiate windows install with flash drive plugged in
 
