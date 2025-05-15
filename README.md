@@ -87,7 +87,14 @@ $packages = @(
     "treesizefree",
     "whatsapp",
     "telegram",
-    "bruno"
+    "bruno",
+    "discord",
+    "neovim",
+    "notion",
+    "obs-studio",
+    "openssl",
+    "python",
+    "vlc",
 )
 
 foreach ($pkg in $packages) {
